@@ -35,9 +35,19 @@ price, so being wrong is most detectable:
   SI-INSAF Rp2.6M per bank via Perbarindo, SAF-GEN Rp6.9–9.9M/month).
 
 **Group 2 — the sales-motion reality check** (~5 people). Anyone who sells
-software into Indonesian regulated buyers. Your friend who sells SaaS to
-government and similar entities is the single highest-value conversation in
-this entire document — see "The G6 question" below.
+software into Indonesian regulated buyers.
+
+**Interview 0 — do this one first, before any buyer.** The friend who
+already sells SaaS to government and similar organisations. It is not
+Interview 1 in a sequence; it is a different question entirely, and its
+answer changes how every later interview should be read. Its purpose is not
+to validate a candidate — it is to estimate whether G6 reflects reality for
+*these* circumstances. If it turns out that channel partners routinely carry
+third-party software, that deals close in weeks rather than many months, and
+that procurement is lighter than the corpus assumes, then the buyer
+interviews are being run against a constraint that is looser than modelled.
+If it confirms the corpus, you know before spending twenty conversations
+that G6 remains dominant. Questions in "The G6 question" below.
 
 **Group 3 — one or two people who tried and stopped.** Founders or product
 managers from any incumbent named in the corpus. What they learned from

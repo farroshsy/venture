@@ -38,10 +38,15 @@ The scope is narrower still, and worth stating plainly because it makes the
 result stronger rather than weaker. Program B eliminated against a founder
 model fixed in advance: a solo founder, selling remotely, product-led
 adoption only, no enterprise sales motion, no pre-revenue licence. So the
-finding is not *"enterprise integrity software is not worth building."* It
-is: **among companies compatible with that operating model, none was
-found.** Several eliminated candidates are real businesses for a funded team
-with a sales organisation.
+finding is not *"enterprise integrity software is not worth building."* The
+claim this repository actually makes is:
+
+> **Among companies compatible with this founder model, no qualifying
+> opportunity was found under this protocol.**
+
+That sentence defines the search space, names the evidence standard, and
+stays falsifiable. Several eliminated candidates are real businesses for a
+funded team with a sales organisation.
 
 ## What killed everything
 
