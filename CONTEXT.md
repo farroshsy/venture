@@ -191,3 +191,40 @@ products, paperwork-compliance SaaS, generic BI.
   (research/PROGRAM-B-PROTOCOL.md), including the added diversity tiebreak
   (max 3 per mechanism, severity-evidence quality breaks ties). Scoring
   workflow launched same day.
+- 2026-07-30: Program B research-stage agents were run on Sonnet (workflow
+  `opts.model`) to survive rate limits; refutation memos and the
+  calibration judge stayed on Opus. The calibration pass corrected the
+  resulting score drift (matrix §(a) normalization rules); the anchor audit
+  (research/verify/audit-anchor-application.md) bounds how much any of it
+  could matter.
+- 2026-07-30: **Program B CLOSED and FROZEN.** 30/30 eliminated, HB not
+  supported under the frozen protocol. Conclusion memo
+  research/PROGRAM-B-CONCLUSION.md at sha256
+  c4002cb2f4d0c9a2402132a899c164341133c9dcba1b4b4c168b67ae46acc2c2; audit
+  artifact at sha256
+  1d0ce2335297296c6f96d921936eb2c3cb53e6581ba78adc9abf8fb2fee782a6. Two
+  adversarial fact-check rounds run before freeze (4 HIGH + 16 MED, then 7
+  residual, all fixed); errata banner added to the matrix. Corrected
+  headline finding: Indonesian buyers DO pay for integrity software, but
+  observed prices × reachable customer counts sit below bootstrap
+  economics, and free state services cap the price (SI-INSAF Rp2.6M/BPR
+  needs ~6,300 customers vs ~1,100-1,518 BPRs). Decision rule: not rerun
+  under this protocol; future work is a new versioned program.
+  **Program C seed (not opened):** budget-first search — find buyers
+  already spending, then identify which part of that spend is an integrity
+  problem. Both programs to date ran problem-first.
+- 2026-07-30: **Programs A and B permanently frozen.** No further edits
+  beyond typographical correction; all four hashes re-verified on close.
+  Agreed next sequence, in place of opening Program C: (1) freeze;
+  (2) package the corpus for a reader (README.md); (3) ONE bounded
+  geography test on the nine candidates that passed all kill tests and died
+  only on economics — an appendix to Program B, not a new program, no
+  rescoring and no new candidates; (4) spend the remaining full-time window
+  on buyer interviews and the job hunt. **Rationale:** the dominant
+  uncertainty has changed — it is no longer "is there a company here?" but
+  "is the negative result caused by Indonesian market structure or is it
+  general?" Geography was the one variable held fixed across all 86
+  candidates. Desk research is exhausted; both conclusions name the absence
+  of customer interviews as the largest evidence gap. No further full
+  protocol before graduation (~Sep 2026): the scarce resource is calendar
+  time, not research capacity.
