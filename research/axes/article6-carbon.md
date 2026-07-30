@@ -1,0 +1,60 @@
+# Article 6 Cross-Border Carbon Transfers (article6-carbon) — axis 1
+
+## Problem & Current Workflow
+When Indonesia sells emission reductions abroad under Article 6.2 of the Paris Agreement, both countries must prove the same tonne is not counted twice. The workflow today (verified against the ERCST presentation by Joko Prihatno, Indonesia's Article 6 negotiator, March 2025): (1) a mitigation project registers in SRN PPI, the national registry run by the environment ministry; (2) an accredited validator/verifier certifies outcomes and the ministry issues SPE-GRK units; (3) foreign transfer requires ministerial Authorization — under Perpres 110/2025 any carbon unit transferred outside Indonesia must obtain it (Perpres 110/2025, Oct 2025); (4) for the Indonesia–Japan JCM, a bilateral Joint Committee registers projects, both governments record credits in their own registries, and the negotiated split for project ID013 is roughly 50% of ITMOs to Japan, with 55 projects still under allocation discussion (ERCST, 2025); (5) both parties file initial reports and Agreed Electronic Format data to the UNFCCC's CARP, which connects to the International Registry approved as a dual-layer system at COP29; an Article 6 technical expert review flags inconsistencies; (6) Indonesia applies corresponding adjustments by an averaging method at Biennial Transparency Report time. A market channel exists: IDXCarbon opened international trading on 20 January 2025 with 1.78 Mt CO2e of authorized units and 41,822 tCO2e traded on day one (Bareksa, 2025; Kontan, 2025). Under Perpres 110/2025, international voluntary-market carbon trading implementation begins June 2026 (Kementerian Kehutanan, 2025), and Indonesia and Japan reaffirmed acceleration of JCM projects at a bilateral meeting on 16 July 2026 (Ecobiz Asia, 2026).
+
+## Stakeholders & Who Pays (both sides)
+Indonesian side: Ministry of Environment (KLH/BPLH) operates SRN PPI and, under Perpres 110/2025, the successor SRUK registry; OJK regulates the exchange; IDXCarbon operates trading; state developers (Pertamina Geothermal, PLN units) supply most listed volume. Buyer side: Japan's MoEJ/METI (JCM, GX-ETS becoming mandatory in 2026 with up to ~10% offset use under discussion), Singapore, CORSIA airlines, and foreign buyers on IDXCarbon. The UNFCCC secretariat audits via technical expert review. Governments and donors pay for registry infrastructure; buyers pay per-tonne; project developers pay MRV costs.
+
+## Trust Breakdown (cited incidents)
+- Rimba Raya: the environment ministry revoked the project's forest license in 2024, alleging carbon trading over an area larger than permitted and unauthorized transfer of permit rights; the Jakarta State Administrative Court voided the revocation on 11 July 2024 (S&P Global, 2024; Carbon Pulse, 2024). Carbon Streaming initiated arbitration over the project, which has issued 33.6 million credits (Carbon Streaming, 2024). This is custodian-integrity failure: the sovereign anchor changed its position after credits were sold.
+- Global execution gap: as of April 2025 only one Article 6.2 transfer had been fully completed with corresponding adjustments (Switzerland–Thailand, January 2024) despite 90+ bilateral agreements (Article 6 Implementation Partnership, 2025); Japan and Maldives later completed a JCM ITMO transfer (Quantum Commodity Intelligence, 2025). Indonesia–Japan initial reporting was still "in progress" in March 2025 (ERCST, 2025). By 2026 only Guyana, Zimbabwe and Malawi had formally reported corresponding adjustments to the UNFCCC (Sylvera, 2026) — the bottleneck is state capacity, not a disputed anchor. IEEFA (2025) documents that two years after launch Indonesia's carbon market "struggles to find momentum."
+- Regulatory churn: OJK was still revising exchange rules in May 2026 to fit Perpres 110/2025, with SRUK migration incomplete and transitional provisions proposed (Kompas, 21 May 2026).
+
+## Cost of the Problem
+Cumulative IDXCarbon trade Sep 2023–Jan 2025: 1,040,053 tCO2e, Rp 55.237 billion (~US$3.4M) (IDXCarbon via ERCST, 2025); roughly Rp 77.95 billion by August 2025 (Kompas, 2026). The frequently cited multi-billion-dollar Article 6 savings estimates are macro projections, not addressable revenue (unverified for sizing). Losses from permit disputes (Rimba Raya) are sovereign-risk losses a vendor cannot underwrite. Addressable spend for interoperability tooling is government procurement measured, at best, in single-digit millions.
+
+## Existing Solutions (as of 2026-07, named)
+SRN PPI and successor SRUK (state); IDXCarbon; Japan's JCM registry and Joint Committee; UNFCCC CARP + International Registry (dual-layer, COP29); Climate Action Data Trust (World Bank/IETA/Singapore) — a Chia-blockchain metadata layer already covering ~85% of issued credits (Singapore EDB, 2024); MRAs signed in 2025 between Indonesia and Gold Standard (May 2025), Verra (October 2025), Global Carbon Council and Plan Vivo (KLH, 2025; Verra, 2025). OJK states future SRUK development will itself be blockchain-based and exchange-integrated (Kompas, 2026).
+
+## Why Insufficient & Who Rejects the Existing Anchor
+The system is slow, but nobody rejects the anchors. Both sovereigns accept the UNFCCC secretariat (CARP/International Registry) as the accounting anchor and the bilateral JCM Joint Committee as the transactional one; private standards accept SRN via MRAs. The binding constraints are negotiation (benefit-sharing for 55 JCM projects) and bureaucratic capacity — not absence of a mutually accepted verifier. H1 predicts death here, and the evidence confirms it.
+
+## Blockchain Test
+Multi-party and adversarial in theory, but every economically relevant party already accepts a neutral institution (UNFCCC) or a bilateral committee. The state is building the blockchain registry itself (SRUK). Custodian-independent verification is not structurally necessary; it is being supplied by the anchor.
+
+## Kill Test Verdict
+1. Problem exists without blockchain: YES. 2. Single trusted operator acceptable to both sides: YES — UNFCCC CARP is exactly that; FAIL. 3. State/incumbent ships it: YES — KLH/OJK are building SRUK, UNFCCC ships CARP, CAD Trust exists; FAIL. 4. Standalone company value: NO — cumulative traded value ~US$3-5M; customers are two governments; FAIL. KILLED.
+
+## Scores
+- Severity 6 — permit revocation and double-claim exposure are existential for developers (Rimba Raya), but episodic.
+- Market 2 — registry/interop spend in Indonesia is government procurement in the low millions.
+- WTP 3 — governments/donors pay; slow procurement; developers cannot buy sovereignty risk away.
+- Chain 5 — multi-org and cross-border, but accepted trusted intermediaries exist (UNFCCC, Joint Committee).
+- Urgency 6 — GX-ETS 2026 and BTR cycles create real deadlines, mostly for states.
+- Competition 3 — CAD Trust (World Bank-backed), UNFCCC, and the state's own SRUK occupy the ground.
+- Moat 2 — the protocol position is already taken by treaty bodies.
+Weighted: 3.9.
+
+## What Would Kill This Idea
+Already killed by kill tests 2–4. It would revive only if the UNFCCC registry visibly failed as an anchor (e.g., a documented double-claim between SRN and the JCM registry that CARP could not detect) AND buyers began demanding third-party proof — no such incident found after hard search.
+
+## Sources
+- https://ercst.org/wp-content/uploads/2025/03/ERCST-Informal-Forum-on-Implementation-Article-6-PA-ERCST-13-14-march-2025-joko.pdf
+- https://money.kompas.com/read/2026/05/21/155654926/aturan-bursa-karbon-direvisi-ojk-sesuaikan-dengan-perpres-110-tahun-2025
+- https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/071624-jakarta-court-voids-revocation-of-rimba-raya-carbon-project-license-investor
+- https://carbon-pulse.com/303586/
+- https://www.carbonstreaming.com/news/carbon-streaming-provides-update-on-rimba-raya-project-3/
+- https://a6partnership.org/a6-implementation-status/current-status-of-article-6-2-implementation
+- https://www.qcintel.com/carbon/article/japan-maldives-complete-itmo-transfer-under-jcm-55347.html
+- https://www.bareksa.com/berita/saham/2025-01-20/perdagangan-karbon-internasional-diresmikan-total-unit-178-juta-ton-co2e
+- https://investasi.kontan.co.id/news/debut-perdana-perdagangan-karbon-internasional-catat-volume-transaksi-41822-tco2e
+- https://kemenlh.go.id/news/detail/wamen-diaz-klhbplh-dorong-kerja-sama-internasional-siapkan-mra-dengan-verra-dan-gold-standard
+- https://verra.org/verra-and-indonesia-sign-milestone-agreement-to-advance-carbon-markets/
+- https://ssek.com/blog/indonesia-signs-mutual-recognition-agreement-with-gold-standard-for-carbon-credits/
+- https://www.edb.gov.sg/en/business-insights/insights/singapore-backed-platform-cad-trust-boosts-transparency-covers-85-of-carbon-credit-market.html
+- https://climateactiondata.org/
+- https://www.kehutanan.go.id/news/perpres-110-tahun-2025-perkuat-kedaulatan-negara-dalam-pengelolaan-karbon-dan-hutan-berkelanjutan
+- https://ecobiz.asia/indonesia-japan-advance-clean-energy-partnership-and-jcm-carbon-projects/
+- https://www.sylvera.com/blog/article-6-authorizations-corresponding-adjustments-faq
+- https://ieefa.org/resources/two-years-after-launch-indonesias-carbon-market-struggles-find-momentum

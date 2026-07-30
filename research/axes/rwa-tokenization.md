@@ -1,0 +1,70 @@
+# Tokenized Real-World Assets under the OJK Regime (axis 4-EXPLORATORY)
+
+## Problem & Current Workflow
+
+Indonesian securities settle scripless through KSEI, the central depository; retail state bonds and sukuk (SBN ritel) are distributed online by banks and fintechs against the state registry at roughly Rp1 million minimums; licensed custodial apps sell digital gold (Pegadaian, Pluang, Treasury). Ownership verification rests entirely on state-anchored registries and licensed custodians. Tokenization proposes on-chain claims on these assets. The regulatory path as of mid-2026: consult OJK, apply to the IAKD regulatory sandbox, test, graduate ("passed"), then operate under POJK 27/2024 on Digital Financial Asset Trading Including Crypto Assets — effective 10 Jan 2025, when oversight moved from Bappebti to OJK — as amended by POJK 23/2025, with SEOJK 20/2024 as technical guidance (OJK, 2024-25).
+
+Verified live projects: **IDDB** (ID Digital Bonds) by PT Sejahtera Bersama Nano (Nanovest group) — tokenized exposure to the INDON 34 USD sovereign global bond, admitted to the sandbox by approval letter of 8 Oct 2024 and graduated 8 Oct 2025; it cuts the minimum ticket from US$200,000 to US$100 (Antara/Nanovest, 2024-25; OJK, 2025). **Blocktogo** (PT Indonesia Blockchain Persada) — gold token GIDR, graduated 8 Aug 2025 (OJK, 2025). **D3 Labs** — first approval in the Digital Financial Market Infrastructure category with its Pruv Finance issuance platform (Fintech News Indonesia, Dec 2025). OJK reported 31 sandbox applications received, with four participants actively testing (OJK Board of Commissioners press release, March 2026). Forward pipeline: a dedicated RWA-tokenization POJK targeted for Q3-2026, an IAKD roadmap 2026-2031 covering stablecoin regulation, OTC and asset tokenization (OJK statements via Suara/Ajaib, June 2026), and a CFX exchange push into IP tokenization for the creative economy (Kompas/Bisnis, July 2026).
+
+## Stakeholders & Who Pays (both sides where cross-border)
+
+Domestic: issuers (Nanovest/SBN, Blocktogo, D3 Labs) pay build and licensing costs; CFX, the OJK-supervised crypto exchange, lists and co-develops rules; KSEI holds underlying bonds; vault custodians back gold tokens; 20M+ Indonesian crypto users form the retail demand base (Fintech News Indonesia, Dec 2025); crypto taxation follows PMK 50/2025 (DJP, 2025). Cross-border: foreign institutions operate through MAS's Project Guardian frameworks — the Guardian Fixed Income Framework, ICMA's DvP settlement guide for DLT debt securities (Nov 2025), the Guardian Wholesale Network, and SGD CBDC interbank trials completed April 2026 (MAS/ICMA, 2025-26). Each side currently accepts its own state anchor; foreign investors reach Indonesian assets through accepted global custodian chains.
+
+## Trust Breakdown (cited incidents)
+
+The failure tokenization claims to fix is unverifiable or double-pledged backing. Indonesia's documented adjacent incident is **Investree**: OJK revoked the P2P lender's license in October 2024 after a bad-loan blowup and alleged misconduct by its former CEO (widely reported, 2024). The mechanism matters — the platform itself misrepresented assets. That is off-system collusion: a token wrapper administered by the same platform would have faithfully attested the same fictions. Gold tokens likewise still depend on the issuer's vault audits; the chain proves token movements, not bar existence. No backing failure inside the OJK sandbox has been documented as of mid-2026 (searched).
+
+## Cost of the Problem
+
+- Crypto transaction value, Indonesia: IDR 446 trillion (~US$26.8B) (figures cited at Indonesia Blockchain Week via Fintech News Indonesia, Dec 2025) — context for rails, not RWA-specific.
+- Projected tokenizable Indonesian assets: US$88B by 2030 — bonds, funds, infrastructure, SME financing (projection cited ibid., Dec 2025) — aspirational, not current revenue.
+- Current RWA-specific volumes (IDDB, GIDR): not published (unverified); plausibly single-digit millions of dollars.
+- The retail-access problem is real but bounded: SBN ritel already offers Rp1M minimums through the state pipeline; IDDB's marginal value is fractional access to USD-denominated global bonds.
+- Investree lender losses: platform-collusion driven — stripped from addressable sizing per rules.
+
+## Existing Solutions (as of 2026-07, named)
+
+State systems: KSEI depository, SBN online distribution, the OJK sandbox-to-license pipeline, CFX. Indonesian players: Nanovest/SBN (IDDB), Blocktogo (GIDR), D3 Labs (Pruv), custodial gold apps (Pluang, Treasury, Pegadaian). Regional/global: Project Guardian consortium (DBS, UBS, Franklin Templeton, Apollo, OCBC among pilot institutions), Securitize-class issuers, HashKey-INDODAX partnership, and post-consolidation exchanges (Binance-Tokocrypto, Robinhood-Buana Capital) (Fintech News Indonesia, Dec 2025). The state is not resisting tokenization; it is absorbing it.
+
+## Why Insufficient & Who Rejects the Existing Anchor
+
+Nobody economically relevant rejects the anchor. Domestic investors accept OJK licensing and KSEI custody; foreign institutions accept custodian chains and, regionally, MAS governance under Project Guardian. The token layer is a distribution and fractionalization technology sanctioned by the anchor, not a replacement for it — sandbox graduates are, in effect, licensed custodians with a token interface. H1 predicts, and the evidence confirms, that where the state absorbs the innovation into its own trust perimeter, custodian-independent verification is not structurally necessary.
+
+## Blockchain Test
+
+Kill #1 partial: the underlying problems — retail access, SME financing friction, high minimum tickets — exist without blockchain, but they are equally addressable by custodial fractionalization (SBN ritel, Pluang prove it). Kill #2 FAIL: KSEI is a single trusted operator acceptable to all parties, including foreign custodians. Kill #3 FAIL: the state is shipping the regime by decree — the RWA POJK is due Q3-2026, and CFX/KSEI can add token rails as features. Kill #4 uncertain: fees on tokenized AUM could eventually support companies; today's graduated projects are tiny.
+
+## Kill Test Verdict
+
+KILLED (#2, #3) as a trust-failure venture under H1. This is distinct from viability as a licensed fintech business: sandbox positions may become good businesses, but they are custodian businesses, not custodian-independent verification.
+
+## Scores
+
+- Severity 4 — access friction and minimum-ticket exclusion are measurable, but there is no fraud scandal driving demand.
+- Market 5 — the US$88B-by-2030 projection implies a service-fee pool in the US$50-250M range (unverified derivation).
+- WTP 5 — issuers and institutions budget for issuance infrastructure; OJK-driven compliance spend is emerging.
+- Chain 4 — multi-org, but a universally accepted state anchor (OJK/KSEI) exists and custodial databases demonstrably suffice.
+- Urgency 7 — dedicated RWA POJK targeted Q3-2026; IAKD roadmap 2026-2031 in drafting; sandbox windows open now.
+- Competition 4 — licensed graduates (Nanovest/SBN, Blocktogo, D3 Labs) plus global vendors and exchange incumbents already hold positions.
+- Moat 5 — sandbox graduation and licensing are genuine regulatory lock-in for whoever holds them.
+
+Weighted: 4.8.
+
+## What Would Kill This Idea
+
+Killed under H1 as posed. Revival scenarios: foreign-investor-facing tokenization where OJK's anchor is not accepted abroad (cross-border collateral mobility requiring proof independent of Indonesian custodians), or a documented backing scandal in a licensed token forcing custodian-independent attestation requirements into the Q3-2026 POJK.
+
+## Sources
+
+- https://ojk.go.id/id/regulasi/Pages/POJK-27-2024-AKD-AK.aspx
+- https://ojk.go.id/id/berita-dan-kegiatan/siaran-pers/Pages/POJK-23-Tahun-2025-Perubahan-POJK-27-Tahun-2024-Penyelenggaraan-Perdagangan-Aset-Keuangan-Digital-Termasuk-Aset-Kripto.aspx
+- https://ojk.go.id/en/berita-dan-kegiatan/siaran-pers/Pages/March-2026-Board-of-Commissioners-Meeting-Financial-Services-Sector-Stability-Remains-Maintained.aspx
+- https://fintechnews.id/109122/blockchain/indonesia-blockchain-week/
+- https://www.antaranews.com/berita/4589666/sbn-luncurkan-tokenisasi-obligasi-yang-tercatat-di-ojk-sandbox
+- https://www.vritimes.com/us/articles/fa231ecb-0c27-11ef-8ac5-0a58a9feac02/08b167b4-65cd-11ef-81cd-0a58a9feac02
+- https://www.suara.com/bisnis/2026/06/08/195555/ojk-siapkan-tiga-kebijakan-strategis-dorong-tokenisasi-aset-dan-stablecoin-nasional
+- https://ajaib.co.id/belajar/berita-kripto/ojk-susun-roadmap-kripto-2026-2031-fokus-regulasi-stablecoin-dan-tokenisasi-aset
+- https://money.kompas.com/read/2026/07/03/180932226/tokenisasi-ip-bursa-cfx-dorong-industri-kreatif-masuk-ekosistem-kripto
+- https://www.mas.gov.sg/schemes-and-initiatives/project-guardian
+- https://www.icmagroup.org/News/news-in-brief/project-guardian-fixed-income-workstream-deliverables-led-by-icma-published-as-an-addendum-to-the-guardian-fixed-income-framework/
+- https://www.pajak.go.id/en/node/117234

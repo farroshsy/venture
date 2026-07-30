@@ -1,0 +1,58 @@
+# Islamic Social Finance — Zakat & Waqf Transparency
+
+## Problem & Current Workflow
+Zakat: a muzakki (payer) either gives directly to recipients/mosques, or pays through the official system — BAZNAS (national, provincial, district) and licensed LAZ (amil institutions). The institution may retain an amil share (up to 12.5% under UU 23/2011), distributes to the eight asnaf categories, and reports upward. Official recording runs through SIMBA (Sistem Manajemen Informasi BAZNAS), a web system with 88 sub-report types, now integrated with the tax office so zakat receipts count as taxable-income deductions (BAZNAS, 2024-2025). LAZ can integrate host-to-host or use SIMBA directly; BAZNAS ran LAZ onboarding trainings in June 2024. Waqf: a wakif pledges an asset before a PPAIW officer (usually the local KUA), an Akta Ikrar Wakaf is issued, a nazhir (manager) registered with BWI takes custody, and land must then be certified at BPN; Kemenag's SIWAK database records waqf parcels. Certification is the chokepoint: KPK and Kemenag run acceleration drives (e.g., East Java, 2025), and Kemenag reported ~10,000 parcels certified in Q3 2025 alone — against a backlog of hundreds of thousands.
+
+## Stakeholders & Who Pays
+Muzakki/wakif fund everything; amil institutions (BAZNAS units, 30+ national LAZ, thousands of local amil) do the work and keep the amil share; Kemenag regulates and sharia-audits; public accountants audit larger OPZ; DPR Commission VIII and donors dispute performance; heirs and local governments dispute uncertified waqf land. The only real budget owners are the amil institutions (from the amil share) and the state (Kemenag, BWI, BPN certification programs).
+
+## Trust Breakdown (documented incidents)
+- ACT (Aksi Cepat Tanggap), 2022: Kemensos revoked the fundraising licence of one of Indonesia's largest philanthropy institutions after findings that donated funds were diverted to executive pay and unrelated ventures (Kemensos/PPATK, 2022). It reset public suspicion of all intermediated giving.
+- Waqf land: of 522,000+ parcels recorded in SIWAK, only 58.76% are certified (ATR/BPN via Kompas.com, 2026); in East Java 51.87% of 78,825 parcels lack certificates (Kemenag/KPK, 2025). Uncertified parcels are recurrently disputed or reclaimed by heirs when the wakif dies — Kompas (2026) documents this as a systemic generational risk; KPK treats certification as an anti-corruption agenda (2025).
+- Donor distrust: Indonesian academic surveys (JOIPAD 2023; ResearchGate/IAIN studies) consistently find muzakki prefer direct giving to mosques/mustahik, viewing it as more afdhal and distrusting institutional competence; no single verified national percentage exists (unverified).
+- The collection gap itself: potential Rp327.6 trillion/year (BAZNAS IPPZ methodology, 2019, using 2016-2018 data) versus ~10% realized (BAZNAS via Antara, 2024-2025).
+
+## Cost of the Problem
+The gap is mostly foregone mobilization, not theft: Rp327T potential vs Rp41T recorded (Kompas.id, 2025 — a figure that already includes loosely-recorded "off balance sheet" giving); the 2025 national target of Rp50T comprises only Rp12.7T on-balance-sheet through official OPZ, with Rp37.3T merely "recorded in society" (BAZNAS Rakornas, 2024). Cash waqf: potential Rp180 trillion/year (BWI-BI-Kemenkeu studies via Antara, 2025) versus Rp3.5 trillion collected cumulatively as of October 2025 (Kompas, 2025); BWI put realization through 2024 at Rp2.9 trillion, under 2% (Republika/BWI). Note the potential estimates are contested: BWI's chairman separately cited Rp400 trillion (BWI, 2025), and the Rp327T zakat figure rests on 2016-2018 macro data — treat as advocacy numbers, not addressable revenue.
+
+## Existing Solutions (as of 2026-07)
+- Government: SIMBA (mandated recording + DJP tax integration), SIWAK (waqf land registry), KPK-Kemenag-BPN certification drives, CWLS (Cash Waqf Linked Sukuk retail series, e.g., SWR006 marketed by Bank Mega Syariah with a Rp15 billion target — BWI, Oct 2025).
+- Private/platforms: Kitabisa (dominant crowdfunding/zakat channel), e-wallet and bank zakat channels, LAZ-owned apps (Dompet Dhuafa, Rumah Zakat ecosystems).
+- Blockchain-specific: Finterra's WAQF Chain pilot (2018), a Telkom-BWI blockchain use case (2020), and a steady stream of Indonesian academic prototypes (BWI's own journal, 2022-2025). None has reached production scale; the literature itself frames adoption as unresolved.
+
+## Why Insufficient
+SIMBA is a reporting system for institutions that already choose transparency; adoption across 600+ BAZNAS units and LAZ is uneven, and 75% of the 2025 "collection" target is by definition outside any system. Nothing gives a donor asset-level proof that their zakat reached a mustahik — the evidence gap is at the last mile (distribution photos, beneficiary lists), which is an off-chain data problem. SIWAK records parcels but cannot fix the legal act of certification at BPN.
+
+## Blockchain Test
+Multiple quasi-competing organizations (BAZNAS vs LAZ) and a regulator that is also an operator suggest a neutrality gap. But the accepted arbiter (Kemenag/state) exists, and the trust failure donors care about — was the money actually distributed, is the land actually the mosque's — happens off-chain. A tamper-evident ledger of institution-entered claims changes little; ACT's books were audited and the diversion happened anyway.
+
+## Kill Test Verdict
+1. Problem without blockchain: YES. 2. PostgreSQL under a trusted operator: SIMBA/SIWAK are that system; the gap is adoption, capture at source, and last-mile verification — a better-run central DB serves as well — FAIL. 3. Incumbent six-month feature: BAZNAS/Kitabisa can ship donor-facing traceability dashboards — plausibly YES — FAIL. 4. Standalone value: amil share funds exist but WTP for assurance tooling is thin. VERDICT: KILLED (tests 2, 3; weak 4).
+
+## Scores
+- Severity 7 — recurring trust failures (ACT 2022), regulatory exposure, dedicated audit/compliance staff at every OPZ.
+- Market 4 — assurance/software spend by OPZ and nazhir likely under $50-100M TAM; flows are large but untouchable as take-rate (unverified basis).
+- WTP 5 — amil-share budgets and state programs exist; procurement slow, mission-constrained.
+- Chain 5 — multi-org, but Kemenag/BAZNAS are the accepted intermediaries; last-mile evidence is off-chain.
+- Urgency 5 — growing pressure (DPR targets, KPK certification drives) but no hard deadline.
+- Competition 5 — SIMBA mandated, Kitabisa dominant in digital giving, many stalled pilots; no dominant assurance player.
+- Moat 5 — cross-institution standard position possible but replicable by the regulator.
+- Weighted: 5.2
+
+## What Would Kill This Idea
+Already killed for a chain venture: the oracle problem sits exactly where the distrust is. A non-blockchain play (last-mile distribution evidence tooling sold to LAZ) survives the logic but collides with thin budgets and BAZNAS shipping it into SIMBA.
+
+## Sources
+- https://www.antaranews.com/berita/4202409/baznas-potensi-zakat-di-indonesia-mencapai-rp327-triliun
+- https://www.kompas.id/artikel/en-potensi-zakat-rp-327-triliun-yang-terkumpul-baru-rp-41-triliun
+- https://kabbandung.baznas.go.id/news-show/RakornasBAZNASSeluruhIndonesiaTahun2024Hasilkan17RekomendasiApaSaja/10121
+- https://www.puskasbaznas.com/publications/indonesia-zakat-index/zakat-collection/indikator-pemetaan-potensi-zakat-ippz
+- https://www.kompas.com/properti/read/2026/07/10/143925621/tanah-wakaf-tanpa-sertifikat-rawan-bermasalah-saat-ganti-generasi
+- https://www.kpk.go.id/id/ruang-informasi/berita/sinergi-kpk-kemenag-dorong-percepatan-sertifikasi-tanah-wakaf-di-jawa-timur
+- https://kemenag.go.id/nasional/10-ribu-tanah-wakaf-tersertifikasi-di-triwulan-tiga-2025-apa-peran-kemenag-LaEbV
+- https://nasional.kompas.com/read/2025/10/30/18145671/potensi-wakaf-uang-indonesia-capai-rp-180-triliun-per-tahun-baru-terkumpul
+- https://khazanah.republika.co.id/berita/t343h2430/wakaf-uang-berpotensi-rp-180-triliun-baru-16-persen-terealisasi
+- https://www.bwi.go.id/11361/2025/07/21/ketua-badan-wakaf-indonesia-ungkap-potensi-wakaf-rp400-triliun/
+- https://baznas.go.id/news-show/Dorong_Digitalisasi_Laporan_Zakat_Nasional__BAZNAS_RI_Gelar_Pelatihan_Simba_untuk_LAZ/2300
+- https://www.jurnal.bwi.go.id/index.php/awqaf/article/view/129
+- https://jurnal.iainponorogo.ac.id/index.php/joipad/article/download/4504/2279

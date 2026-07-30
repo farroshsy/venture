@@ -1,0 +1,57 @@
+# Koperasi — Savings Cooperative (KSP) Transparency
+
+## Problem & Current Workflow
+A Koperasi Simpan Pinjam (KSP) takes mandatory and voluntary savings (simpanan pokok, wajib, sukarela) from members and lends to members. Governance runs through the annual members' meeting (RAT), which approves the board's self-prepared financial statements. External oversight is a reporting relationship: the KSP files data to the Ministry of Cooperatives (Kemenkop) or the provincial/district dinas through the Online Data System (ODS); since 2025 an "ODS Mandiri" lets cooperatives update their own records (Juknis Deputi Kelembagaan No. 1/2025). Reports are self-declared; independent audit is required only for larger cooperatives and enforcement is thin. There is no deposit insurance for cooperative savings. Under UU No. 4/2023 (P2SK), cooperatives that serve non-members ("open loop") must move under OJK supervision: on 10 January 2025 Kemenkop handed OJK a first list of 21 open-loop cooperatives (letter B-3/M.KOP/PK.02.00/2025), with recorded assets of only Rp339 billion (Berita Koperasi, 2025) — a sliver of the sector. The rest, tens of thousands of KSPs, remain under Kemenkop's reporting-based regime. Since 21 July 2025, the government has additionally launched 80,000 Koperasi Desa Merah Putih (Kopdes) village cooperatives, each with access to roughly Rp5 billion in bank-channelled funding (KBR, 2025), multiplying the supervision problem overnight.
+
+## Stakeholders & Who Pays
+Members (savers/borrowers) bear the losses; boards and managers do the work; Kemenkop/dinas and now OJK supervise; courts and PKPU (suspension-of-payments) administrators handle disputes. Payers for any solution would be: cooperatives themselves (weak payers), the state (Kemenkop, OJK, Kopdes program budget), and core-banking vendors' clients. Victims' associations and the Satgas for problem cooperatives drive political pressure.
+
+## Trust Breakdown (documented incidents)
+- KSP Indosurya: member losses of Rp16 trillion per the prosecution (Viva, 2022; prosecutors' filing); acquitted at Jakarta Barat District Court (Jan 2023), then the Supreme Court cassation (No. 2113 K/Pid.Sus/2023, 16 May 2023) sentenced founder Henry Surya to 18 years and a Rp15 billion fine; June Indria got 14 years (Tempo, 2023). Funds were routed to affiliated entities while member statements showed healthy balances.
+- Eight problem cooperatives (Indosurya, Sejahtera Bersama Rp8.6T, Intidana Rp930B, Lima Garuda Rp570B, Timur Pratama Rp400B, both Pracico entities ~Rp1.39T, Wahana Berkah Sentosa Rp226B) defaulted on Rp26 trillion of member claims (Kemenkop via Antara/CNBC, 2023); only Rp3.4 trillion had been repaid under court-homologated plans by 2024 (Tempo, 2024).
+- Kopdes Merah Putih: a CELIOS survey of 108 village heads across 34 provinces found ~65% saw large governance gaps, warning of "structured corruption" risk (CELIOS/The Conversation, 2025).
+The recurring pattern: books shown to members and to ODS diverge from actual fund positions; RAT approval is captured; PKPU is then used to freeze claims.
+
+## Cost of the Problem
+Rp26 trillion in defaulted claims across eight cooperatives, ~Rp22.6 trillion still unpaid as of 2024 (Kemenkop via Tempo). Indosurya alone: Rp16 trillion (prosecution, 2022). State fiscal exposure from the 80,000-cooperative Kopdes program is flagged by DPR and CNBC opinion analyses (2025) but unquantified (unverified). Ongoing costs — supervision staff, victim litigation, PKPU administration — are real but no aggregate figure is published (unverified).
+
+## Existing Solutions (as of 2026-07)
+- Government: Kemenkop ODS / ODS Mandiri (self-reporting); OJK licensing and supervision of open-loop cooperatives (in force since Jan 2025); RUU Perkoperasian (4th amendment) in DPR — the government submitted its DIM in June 2026, proposing an LPS Koperasi (deposit guarantee) and a dedicated Kopdes chapter (Antara, 2026).
+- Vendors: PT USSI (IBS/IBSS core banking; claims 1,730+ institutions including BPR/BPRS, BMT, cooperatives; engaged in Kopdes gerai rollout with Kemenkop, 2026), Smartcoop (400+ cooperatives), eKoperasi, Koperasiweb, MyKopkel, and custom-build shops. All offer member apps, automated bookkeeping, and reporting dashboards.
+- No dedicated Indonesian startup was found selling independent, member-facing verification of KSP solvency; the market sells management software, not assurance.
+
+## Why Insufficient
+ODS ingests whatever the cooperative types in; nothing reconciles reported balances with actual bank/cash positions. Vendor core-banking systems are bought by, and answer to, the same management that commits the fraud. OJK covers only 21 open-loop entities so far. LPS Koperasi does not yet exist. So member-fund visibility still depends entirely on the honesty of the operator.
+
+## Blockchain Test
+The fraud is intra-organizational: management vs. members, with the regulator as an accepted (if under-resourced) neutral party. A regulator-run database with mandatory core-banking integration — effectively what OJK does for banks — addresses the problem without distributed trust. Tamper-evidence of self-reported lies adds little; the binding constraint is truthful data capture and supervisory capacity.
+
+## Kill Test Verdict
+1. Problem exists without blockchain: YES. 2. PostgreSQL under a trusted operator (OJK/Kemenkop + mandated reporting): YES, it would solve it — FAIL. 3. Incumbent vendors (USSI, Smartcoop) or the state could ship member-visibility features within six months: plausibly YES — FAIL. 4. Standalone value: weak WTP from cooperatives themselves. VERDICT: KILLED (tests 2 and 3).
+
+## Scores
+- Severity 9 — Rp26T documented member losses, criminal convictions, existential for the sector (Kemenkop 2023).
+- Market 5 — ~130k cooperatives but low software ARPU; supervision-tech TAM plausibly $50-250M (unverified basis).
+- WTP 5 — state budget and program money exist (Kopdes, OJK), but procurement is slow; cooperatives themselves pay little.
+- Chain 4 — multi-party but an accepted trusted intermediary (OJK) exists and is expanding.
+- Urgency 9 — OJK transition in force, RUU Perkoperasian with LPS Koperasi in DPR now, 80k Kopdes live: deadline pressure is current.
+- Competition 4 — entrenched vendors (USSI 1,730 institutions) plus free government systems.
+- Moat 4 — integration lock-in possible, no structural network effect.
+- Weighted: 5.9
+
+## What Would Kill This Idea
+It is already killed as a blockchain venture: the state is building the trusted-operator solution (OJK + LPS Koperasi), and incumbents own the integration surface. A pure supervision-SaaS play competes with free ODS and politically driven procurement.
+
+## Sources
+- https://www.tempo.co/hukum/korban-ksp-indosurya-apresiasi-putusan-mahkamah-agung-terhadap-henry-surya-dan-june-indria-186081
+- https://www.viva.co.id/berita/nasional/1576062-ksp-indosurya-sebut-kerugian-anggota-rp-16-trilun-bukan-rp-106-triliun
+- https://www.antaranews.com/berita/4615222/menkop-ungkap-delapan-koperasi-bermasalah-beri-kerugian-rp26-triliun
+- https://www.cnbcindonesia.com/market/20230221072525-17-415492/ini-dia-pemilik-8-koperasi-bermasalah-yang-rampok-duit-rp26-t
+- https://www.tempo.co/ekonomi/8-koperasi-bermasalah-gagal-bayar-rp26-triliun-kemenkop-ukm-baru-dibayar-rp-3-4-triliun-34173
+- https://ojk.go.id/id/berita-dan-kegiatan/siaran-pers/Pages/Kemenkop-RI-Serahkan-Daftar-Koperasi-yang-Menjalankan-Kegiatan-di-Sektor-Jasa-Keuangan-kepada-OJK.aspx
+- https://www.beritakoperasi.com/peralihan-pengawasan-21-koperasi-open-loop-ke-ojk-aset-tercatat-rp-339-miliar/
+- https://kbr.id/articles/indeks/koperasi-desa-merah-putih-dimodali-rp5-miliar-siapa-yang-mengawasi-
+- https://theconversation.com/koperasi-merah-putih-berisiko-tinggi-jadi-ladang-korupsi-baru-261401
+- https://www.antaranews.com/berita/5611131/pemerintah-serahkan-dim-ruu-perkoperasian-ada-soal-lps-hingga-kdmp
+- https://ussipgs.com/about/software-keuangan-koperasi/
+- https://www.aplikasikoperasi.com/
