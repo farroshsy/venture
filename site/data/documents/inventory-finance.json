@@ -6,5 +6,6 @@
   "hash": "303771912f6e24aea358ced86d75d5580ba5a02ba005fb092c94ce43911d725b",
   "frozen": false,
   "expectedHash": null,
-  "hashMatch": null
+  "hashMatch": null,
+  "documentId": "inventory-finance"
 }

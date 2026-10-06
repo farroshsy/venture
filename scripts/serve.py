@@ -5,8 +5,8 @@ import http.server
 import os
 import socketserver
 
-PORT = 8080
-DIR = os.path.join(os.path.dirname(__file__), "site")
+PORT = int(os.environ.get("PORT", "8080"))
+DIR = os.path.join(os.path.dirname(__file__), "..", "site")
 os.chdir(DIR)
 
 with socketserver.TCPServer(("", PORT), http.server.SimpleHTTPRequestHandler) as httpd:

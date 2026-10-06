@@ -6,5 +6,6 @@
   "hash": "685c1c7db45e0db8d3de050ac0e88304d121c218de311427861f3df8abee0f02",
   "frozen": false,
   "expectedHash": null,
-  "hashMatch": null
+  "hashMatch": null,
+  "documentId": "ai-agent-authority"
 }

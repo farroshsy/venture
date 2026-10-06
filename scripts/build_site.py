@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -98,6 +99,11 @@ def sha256(path: Path) -> str:
 
 def slug_from_path(path: Path) -> str:
     return path.stem
+
+
+def document_id(rel: str) -> str:
+    """Return a filesystem-safe ID that stays unique for every source path."""
+    return re.sub(r"[^a-zA-Z0-9._-]+", "--", rel.removesuffix(".md"))
 
 
 def read_md(rel: str) -> dict:
@@ -489,6 +495,15 @@ def main() -> None:
             continue
         all_docs.append(read_md(rel))
 
+    slug_counts = Counter(doc["slug"] for doc in all_docs)
+    for doc in all_docs:
+        # Keep stable filenames for the common case; qualify only collisions.
+        doc["documentId"] = (
+            document_id(doc["path"])
+            if slug_counts[doc["slug"]] > 1
+            else doc["slug"]
+        )
+
     phase1 = parse_phase1_matrix(read_md("research/PHASE1-MATRIX.md")["content"])
     phase15 = parse_phase15_matrix(read_md("research/PHASE15-MATRIX.md")["content"])
     program_b = parse_program_b_matrix(read_md("research/PROGRAM-B-MATRIX.md")["content"])
@@ -647,8 +662,12 @@ def main() -> None:
 
     docs_dir = OUT / "documents"
     docs_dir.mkdir(exist_ok=True)
+    document_ids = {doc["documentId"] for doc in all_docs}
+    for generated in docs_dir.glob("*.json"):
+        if generated.stem not in document_ids:
+            generated.unlink()
     for doc in all_docs:
-        (docs_dir / f"{doc['slug']}.json").write_text(
+        (docs_dir / f"{doc['documentId']}.json").write_text(
             json.dumps({k: v for k, v in doc.items()}, indent=2),
             encoding="utf-8",
         )

@@ -6,5 +6,6 @@
   "hash": "00905c2d386d456c5fccbc2c93da4ef0b4337c239d3edd1113d21fe9b0fdbf81",
   "frozen": false,
   "expectedHash": null,
-  "hashMatch": null
+  "hashMatch": null,
+  "documentId": "warehouse-receipts"
 }

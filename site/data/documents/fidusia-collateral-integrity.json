@@ -6,5 +6,6 @@
   "hash": "e00d00c67bbb9c4cc61d286a38197a6365ee99f9caf031374d05d57921a04824",
   "frozen": false,
   "expectedHash": null,
-  "hashMatch": null
+  "hashMatch": null,
+  "documentId": "fidusia-collateral-integrity"
 }

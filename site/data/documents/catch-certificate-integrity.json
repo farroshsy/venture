@@ -6,5 +6,6 @@
   "hash": "c4a15768148cdb62b2d15e19f64a913d83578f23ffefd698971abb703f1d86e9",
   "frozen": false,
   "expectedHash": null,
-  "hashMatch": null
+  "hashMatch": null,
+  "documentId": "catch-certificate-integrity"
 }

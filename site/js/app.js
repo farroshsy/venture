@@ -53,11 +53,12 @@ async function loadCorpus() {
   return corpus;
 }
 
-async function loadDocument(slug) {
-  if (docCache[slug]) return docCache[slug];
-  const res = await fetch(`data/documents/${slug}.json`);
-  docCache[slug] = await res.json();
-  return docCache[slug];
+async function loadDocument(documentId) {
+  if (docCache[documentId]) return docCache[documentId];
+  const res = await fetch(`data/documents/${documentId}.json`);
+  if (!res.ok) throw new Error(`Unable to load document (${res.status})`);
+  docCache[documentId] = await res.json();
+  return docCache[documentId];
 }
 
 function navigate(path) {
@@ -560,17 +561,19 @@ function viewDocuments() {
 
 async function viewDocument(path) {
   const docMeta = corpus.documents.find(d => d.path === path);
-  const slug = path.replace(/^research\//, "").replace(/\//g, "-").replace(/\.md$/, "") || path.replace(/\.md$/, "").replace(/\//g, "-");
-  const slugAlt = path.split("/").pop().replace(".md", "");
+  if (!docMeta) return el("p", {}, `Document not found: ${path}`);
   let doc;
-  try { doc = await loadDocument(slugAlt); } catch { try { doc = await loadDocument(slug); } catch { return el("p", {}, `Document not found: ${path}`); } }
+  try { doc = await loadDocument(docMeta.documentId); }
+  catch { return el("p", {}, `Document could not be loaded: ${path}`); }
 
+  const viewer = renderMarkdown(doc.content);
+  viewer.classList.add("doc-viewer");
   return el("div", {},
     el("div", { className: "meta-row" },
       docMeta?.frozen ? badge("FROZEN", "frozen") : null,
       el("a", { href: `#/documents`, onClick: (e) => { e.preventDefault(); navigate("/documents"); } }, "← Index")
     ),
-    el("div", { className: "doc-viewer", html: marked.parse(doc.content) })
+    viewer
   );
 }
 
@@ -583,13 +586,13 @@ function viewAxes() {
 }
 
 async function render() {
-  await loadCorpus();
-  renderSidebar();
   const app = document.getElementById("app");
   const path = currentPath();
   app.replaceChildren(el("p", {}, "Loading…"));
 
   try {
+    await loadCorpus();
+    renderSidebar();
     let view;
     if (path === "/") view = viewHome();
     else if (path === "/candidates") {
@@ -618,7 +621,11 @@ async function render() {
 
     app.replaceChildren(view);
   } catch (err) {
-    app.replaceChildren(el("p", {}, `Error: ${err.message}`));
+    app.replaceChildren(
+      pageHeader("The research publication could not load"),
+      callout(`The browser could not load the generated corpus: ${err.message}`),
+      el("p", {}, "Confirm the local server is running from the repository root, then reload this page.")
+    );
     console.error(err);
   }
 }
