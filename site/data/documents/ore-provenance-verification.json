@@ -6,5 +6,6 @@
   "hash": "dc4ac97981d08ea6423a364e458bb8b2e2e0ce06c63858b27b4a75cc9ffeca85",
   "frozen": false,
   "expectedHash": null,
-  "hashMatch": null
+  "hashMatch": null,
+  "documentId": "ore-provenance-verification"
 }

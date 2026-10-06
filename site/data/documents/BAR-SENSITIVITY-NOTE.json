@@ -6,5 +6,6 @@
   "hash": "2e7bded85ba7a0583a60d3fd5deaac8c1b0dfdaac67bb6052351983aead7eab8",
   "frozen": false,
   "expectedHash": null,
-  "hashMatch": null
+  "hashMatch": null,
+  "documentId": "BAR-SENSITIVITY-NOTE"
 }

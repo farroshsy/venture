@@ -6,5 +6,6 @@
   "hash": "fafc0c65ffe87dc32c4292e7fcbe855a978beb2958b31de117b3cbe1c716002a",
   "frozen": false,
   "expectedHash": null,
-  "hashMatch": null
+  "hashMatch": null,
+  "documentId": "vehicle-registry-canonical-record"
 }

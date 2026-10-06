@@ -68,7 +68,12 @@ export function tabs(items, active, onChange) {
 export function renderMarkdown(text) {
   if (!text) return el("p", {}, "—");
   const div = el("div", { className: "content" });
-  div.innerHTML = marked.parse(text, { breaks: true });
+  if (globalThis.marked?.parse) {
+    div.innerHTML = globalThis.marked.parse(text, { breaks: true });
+  } else {
+    // The publication remains readable if the optional CDN renderer is offline.
+    div.append(el("pre", {}, text));
+  }
   return div;
 }
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T20:56:48.860544+00:00",
+  "generatedAt": "2026-08-18T06:18:37.710747+00:00",
   "question": "Does Indonesia have a bootstrap-scale trust-infrastructure company in it?",
   "stats": {
     "totalCandidates": 86,
@@ -10609,7 +10609,8 @@
       "hash": "564bb560586d30a13c932a8efd4980cd775e5f87d6d6634e6c8cd5c10dcde647",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "CONTEXT"
     },
     {
       "path": "README.md",
@@ -10618,7 +10619,8 @@
       "hash": "7e66982a01aa60ecdfed88e216deec6a0b3612ebdce812cf8fc3189f2eab9a82",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "README"
     },
     {
       "path": "research/BAR-SENSITIVITY-NOTE.md",
@@ -10627,7 +10629,8 @@
       "hash": "2e7bded85ba7a0583a60d3fd5deaac8c1b0dfdaac67bb6052351983aead7eab8",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "BAR-SENSITIVITY-NOTE"
     },
     {
       "path": "research/BLOCKCHAIN-AGENT-BRIEF.md",
@@ -10636,7 +10639,8 @@
       "hash": "607537eee93efaec53230a08ce54f7588e5d88fdc35ab4b35f00448a562c060a",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "BLOCKCHAIN-AGENT-BRIEF"
     },
     {
       "path": "research/BUILD-SPEC.md",
@@ -10645,7 +10649,8 @@
       "hash": "ee90d56030183f9e73eba2e8473d8c46900099da9bde4a39f3afbfc46ae7b120",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "BUILD-SPEC"
     },
     {
       "path": "research/CROSSCUT.md",
@@ -10654,7 +10659,8 @@
       "hash": "535e4c6eb41afd064ddd16735771fe7e2ac346eadffccf9d1c55a3ecf7af5984",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "CROSSCUT"
     },
     {
       "path": "research/GEOGRAPHY-NOTE.md",
@@ -10663,7 +10669,8 @@
       "hash": "43259ff4add979ba3c611ff93086f297eb35d2280965cdf89241fdf21e1540a1",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "GEOGRAPHY-NOTE"
     },
     {
       "path": "research/INTERVIEW-GUIDE.md",
@@ -10672,7 +10679,8 @@
       "hash": "de6243282e5e53b2918d66138a36376c285375da488fc0a3aa6a7ea0434eeec0",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "INTERVIEW-GUIDE"
     },
     {
       "path": "research/PHASE1-MATRIX.md",
@@ -10681,7 +10689,8 @@
       "hash": "cb6c00f6621128a9c418eab4fa027ad59b6b1fbc634bb923ac5efc42456795a8",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "PHASE1-MATRIX"
     },
     {
       "path": "research/PHASE15-MATRIX.md",
@@ -10690,7 +10699,8 @@
       "hash": "4435e9fc3dd9f1fd746ad5335c80fa082e2e79cfe14d058192883447ea6d4dd2",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "PHASE15-MATRIX"
     },
     {
       "path": "research/PHASE15-PROTOCOL.md",
@@ -10699,7 +10709,8 @@
       "hash": "951b03ab6998ad9097c7fc324b5f140eed9c255151953ee40e6799518d62aab7",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "PHASE15-PROTOCOL"
     },
     {
       "path": "research/PROGRAM-A-CONCLUSION.md",
@@ -10708,7 +10719,8 @@
       "hash": "e5ff06827257bbf89c50e62b9064b316154555f39fb8f85ad3ea9d848aa60e65",
       "frozen": true,
       "expectedHash": "e5ff06827257bbf89c50e62b9064b316154555f39fb8f85ad3ea9d848aa60e65",
-      "hashMatch": true
+      "hashMatch": true,
+      "documentId": "PROGRAM-A-CONCLUSION"
     },
     {
       "path": "research/PROGRAM-B-CONCLUSION.md",
@@ -10717,7 +10729,8 @@
       "hash": "c4002cb2f4d0c9a2402132a899c164341133c9dcba1b4b4c168b67ae46acc2c2",
       "frozen": true,
       "expectedHash": "c4002cb2f4d0c9a2402132a899c164341133c9dcba1b4b4c168b67ae46acc2c2",
-      "hashMatch": true
+      "hashMatch": true,
+      "documentId": "PROGRAM-B-CONCLUSION"
     },
     {
       "path": "research/PROGRAM-B-MATRIX.md",
@@ -10726,7 +10739,8 @@
       "hash": "1fba3b8c6ad4ed7ac2c7a7b35de6f2f36fbf6c0d6e9aa9ac1109abbbaf73524f",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "PROGRAM-B-MATRIX"
     },
     {
       "path": "research/PROGRAM-B-PROTOCOL.md",
@@ -10735,7 +10749,8 @@
       "hash": "e2951a71d1a5117bcd95c6e2bab4c40e53a8f413b65b735b4d1e83053e65a4c6",
       "frozen": true,
       "expectedHash": "e2951a71d1a5117bcd95c6e2bab4c40e53a8f413b65b735b4d1e83053e65a4c6",
-      "hashMatch": true
+      "hashMatch": true,
+      "documentId": "PROGRAM-B-PROTOCOL"
     },
     {
       "path": "research/PROGRAM-C-FINDINGS.md",
@@ -10744,7 +10759,8 @@
       "hash": "9251fe26698de8215d08a3a594dfaec07326214e15e03aa8c4744a3d3d98ecd4",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "PROGRAM-C-FINDINGS"
     },
     {
       "path": "research/PROGRAM-C-PROTOCOL.md",
@@ -10753,7 +10769,8 @@
       "hash": "d769a89654b0345a012c9031fa9d5a45e395458e0f4bf0a4786cd876f806444c",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "PROGRAM-C-PROTOCOL"
     },
     {
       "path": "research/RUBRIC.md",
@@ -10762,7 +10779,8 @@
       "hash": "39e5a6e2b1709282615ad1f2816eff5f1a7a04e4715f8414e22b4f0f012a3b7f",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "RUBRIC"
     },
     {
       "path": "research/YAP.md",
@@ -10771,7 +10789,8 @@
       "hash": "a4ae7acc8369463703b90b78ccb386734ddcd32f4255877ab8843415673b0723",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "YAP"
     },
     {
       "path": "research/axes/ad-reconciliation.md",
@@ -10780,7 +10799,8 @@
       "hash": "5045fd68068401650b101f066dfceef423ee599e4b4e274b40f573b89c20ccc6",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "ad-reconciliation"
     },
     {
       "path": "research/axes/ai-agent-authority.md",
@@ -10789,7 +10809,8 @@
       "hash": "685c1c7db45e0db8d3de050ac0e88304d121c218de311427861f3df8abee0f02",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "ai-agent-authority"
     },
     {
       "path": "research/axes/ai-data-licensing.md",
@@ -10798,7 +10819,8 @@
       "hash": "1fe6d2c7bfd9e1ef237de9153e9557d8dfc3e4a74f0325759b28894fa24e1c97",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "ai-data-licensing"
     },
     {
       "path": "research/axes/article6-carbon.md",
@@ -10807,7 +10829,8 @@
       "hash": "6b05bef98bde0506fc43f16840f1d9b6582870c0148d1ad5849bd44cc0d60d99",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "article6-carbon"
     },
     {
       "path": "research/axes/carbon-interministry.md",
@@ -10816,7 +10839,8 @@
       "hash": "d53122bf7d748f0d4944e2ee5c97136182754c8cb22d2c29699bfaa8ca3da18b",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "carbon-interministry"
     },
     {
       "path": "research/axes/client-fund-segregation.md",
@@ -10825,7 +10849,8 @@
       "hash": "6aaf50ccf20c0f96be5e98c2d1fe85590132a2faae82fcfade28881f711e47e3",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "client-fund-segregation"
     },
     {
       "path": "research/axes/corresponding-kyc.md",
@@ -10834,7 +10859,8 @@
       "hash": "d3772de3e90bfa19e8eb91526d8f06d21972af6f84c45142490fb5c7d1395e05",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "corresponding-kyc"
     },
     {
       "path": "research/axes/cross-border-receivables.md",
@@ -10843,7 +10869,8 @@
       "hash": "5902fedf19b6438bc73630137abddf711f029f570badc9c637f8ac903cb96f61",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "cross-border-receivables"
     },
     {
       "path": "research/axes/digital-gold-custody.md",
@@ -10852,7 +10879,8 @@
       "hash": "82eb2103fa89d9de3e35b683a8abf9c2e75bbc0518f7ad62adf9fdb0f8e5d2d3",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "digital-gold-custody"
     },
     {
       "path": "research/axes/ebl-mletr.md",
@@ -10861,7 +10889,8 @@
       "hash": "dd94db86c26ff19311b7e86b6e99e4ea697bd260f1fe9cb45825b9345ccbf1e8",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "ebl-mletr"
     },
     {
       "path": "research/axes/fidusia-collateral.md",
@@ -10870,7 +10899,8 @@
       "hash": "dcf81425e6de2632bd9a01733eb8c263016f6d9a53de6f5acf240d28d5f51b36",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "fidusia-collateral"
     },
     {
       "path": "research/axes/fisheries-multiagency.md",
@@ -10879,7 +10909,8 @@
       "hash": "ba8846e8f85f82dcdad518bf276de85a40bed3ce6fc9a8856cb93f628df15672",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "fisheries-multiagency"
     },
     {
       "path": "research/axes/fund-custody-nav.md",
@@ -10888,7 +10919,8 @@
       "hash": "d6c115d700f12a8fe5610f6858b9d59088daef743c88d3c7b0c33626a8dd7bbf",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "fund-custody-nav"
     },
     {
       "path": "research/axes/halal-mutual-recognition.md",
@@ -10897,7 +10929,8 @@
       "hash": "0ad5df94210040c67191b5ab2c8401eb4cd84b7ad426de86d76cf8770289e7a6",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "halal-mutual-recognition"
     },
     {
       "path": "research/axes/health-worker-mobility.md",
@@ -10906,7 +10939,8 @@
       "hash": "262779c2d0806eb3512fc6c6be9fad2a563bf9cc8dc881fb467c79ee85311692",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "health-worker-mobility"
     },
     {
       "path": "research/axes/inventory-finance.md",
@@ -10915,7 +10949,8 @@
       "hash": "303771912f6e24aea358ced86d75d5580ba5a02ba005fb092c94ce43911d725b",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "inventory-finance"
     },
     {
       "path": "research/axes/land-double-pjb.md",
@@ -10924,7 +10959,8 @@
       "hash": "4d343a93cc4989d7fae76a62476040af323b48d1f5d73320b1c65ee0383a46b9",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "land-double-pjb"
     },
     {
       "path": "research/axes/loyalty-coalitions.md",
@@ -10933,7 +10969,8 @@
       "hash": "41dd28baeaf3218a223380925e53dfa6b31f9db6b7e80286e0daefd5649124e1",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "loyalty-coalitions"
     },
     {
       "path": "research/axes/music-royalties.md",
@@ -10942,7 +10979,8 @@
       "hash": "38d44ada5be549f8c9089f9b5b7cb033dfa2c81b522f5c05415d9736f2a62209",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "music-royalties"
     },
     {
       "path": "research/axes/one-map-overlap.md",
@@ -10951,7 +10989,8 @@
       "hash": "49d33b6ffa14ba7bb9d53a5faa23837b23b5ae169a1609531092eeda2cd62949",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "one-map-overlap"
     },
     {
       "path": "research/axes/proof-of-reserves.md",
@@ -10960,7 +10999,8 @@
       "hash": "6492d7c58926427e7c5d3ddef12a7a16725cff431bf25ac1aa4e87c862e0623d",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "proof-of-reserves"
     },
     {
       "path": "research/axes/receivables-registry.md",
@@ -10969,7 +11009,8 @@
       "hash": "93dc8425ff52b3e1acfd9250ae720e78285c532ed46eaaa9049730fa79307333",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "receivables-registry"
     },
     {
       "path": "research/axes/rwa-tokenization.md",
@@ -10978,7 +11019,8 @@
       "hash": "ffd9d9267eb795949de4b62abffe8ad7e9eca94c601d769cae442ac3cacb3857",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "rwa-tokenization"
     },
     {
       "path": "research/axes/seafarer-verify-foreign.md",
@@ -10987,7 +11029,8 @@
       "hash": "faa417e5e0ea436e675ce9ebfb51ceaa84090e9e16aabf2e92f34f73798edb9f",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "seafarer-verify-foreign"
     },
     {
       "path": "research/axes/timber-svlk.md",
@@ -10996,7 +11039,8 @@
       "hash": "8208de0aae1d872e56410a0fa29a339cfc198e73bd83f55f747d52c888a65a58",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "timber-svlk"
     },
     {
       "path": "research/axes/warehouse-receipts.md",
@@ -11005,7 +11049,8 @@
       "hash": "00905c2d386d456c5fccbc2c93da4ef0b4337c239d3edd1113d21fe9b0fdbf81",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "warehouse-receipts"
     },
     {
       "path": "research/candidates/beneficial-ownership-verification.md",
@@ -11014,7 +11059,8 @@
       "hash": "d01d6f55df3578d8e8ba4a48264d55a93de7f1c52f27d3977b67ff9ff3df019d",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--candidates--beneficial-ownership-verification"
     },
     {
       "path": "research/candidates/bpr-insider-fraud-continuous-audit.md",
@@ -11023,7 +11069,8 @@
       "hash": "27821a7e06134d115a46e9b297013ac635e88dfd6e52a5c2566d2b2e96fd83e9",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "bpr-insider-fraud-continuous-audit"
     },
     {
       "path": "research/candidates/catch-certificate-integrity.md",
@@ -11032,7 +11079,8 @@
       "hash": "c4a15768148cdb62b2d15e19f64a913d83578f23ffefd698971abb703f1d86e9",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "catch-certificate-integrity"
     },
     {
       "path": "research/candidates/collateral-existence-monitoring.md",
@@ -11041,7 +11089,8 @@
       "hash": "f80c36d1bc75eead82fc7ad58f7c2985f195adbfb1af0a7fc094718d8d8dc49c",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--candidates--collateral-existence-monitoring"
     },
     {
       "path": "research/candidates/coretax-erp-tax-reconciliation.md",
@@ -11050,7 +11099,8 @@
       "hash": "1dd0fd815b9ceeea8a8d0df4d3be7bbc373617c5b6515c96f49b25622cb19115",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "coretax-erp-tax-reconciliation"
     },
     {
       "path": "research/candidates/credential-holder-identity-binding.md",
@@ -11059,7 +11109,8 @@
       "hash": "e4e7abe0acc00c476d1fdc7d042bda54b60733a7cd13e5d307ff5cd1b4c0218a",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--candidates--credential-holder-identity-binding"
     },
     {
       "path": "research/candidates/cross-registry-credential-platform.md",
@@ -11068,7 +11119,8 @@
       "hash": "c5591841b03d5b38d0040e4f29cfb612a73ee699659c05e3bef335feecd2b0a0",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--candidates--cross-registry-credential-platform"
     },
     {
       "path": "research/candidates/ekyc-deepfake-injection-detection.md",
@@ -11077,7 +11129,8 @@
       "hash": "ec45ebd9c11cd9475c12c3c3604f98b3908e2ab3889b0dd2557d2ef8391d0eb6",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--candidates--ekyc-deepfake-injection-detection"
     },
     {
       "path": "research/candidates/eudr-plot-origin-evidence.md",
@@ -11086,7 +11139,8 @@
       "hash": "24c6d5e93e40f54c50b344641afb1208f78f1fe5e3bff0eeb182ad6eb5ea902d",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "eudr-plot-origin-evidence"
     },
     {
       "path": "research/candidates/fictitious-tax-invoice-screening.md",
@@ -11095,7 +11149,8 @@
       "hash": "091b10bbd54134e833193d84bc9e8af879de6f3c7f8571b4eb2a5efb63473c33",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--candidates--fictitious-tax-invoice-screening"
     },
     {
       "path": "research/candidates/fidusia-collateral-integrity.md",
@@ -11104,7 +11159,8 @@
       "hash": "e00d00c67bbb9c4cc61d286a38197a6365ee99f9caf031374d05d57921a04824",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "fidusia-collateral-integrity"
     },
     {
       "path": "research/candidates/financial-statement-fraud-detection.md",
@@ -11113,7 +11169,8 @@
       "hash": "39c632ebd6c27e269f7a6c91262f2a22801749005583ba03f1ae5a8546500ffd",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "financial-statement-fraud-detection"
     },
     {
       "path": "research/candidates/gold-bar-provenance-registry.md",
@@ -11122,7 +11179,8 @@
       "hash": "cb77ebc1c788c50286239713bcdf27b0ca5c589959429c246e990f96c2480e2c",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "gold-bar-provenance-registry"
     },
     {
       "path": "research/candidates/halal-certificate-integrity.md",
@@ -11131,7 +11189,8 @@
       "hash": "94fe489d3473f1789f4dc57116d398c80e8c60e9ddeaf608cd07b137b802f532",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "halal-certificate-integrity"
     },
     {
       "path": "research/candidates/indonesia-kyb-verification.md",
@@ -11140,7 +11199,8 @@
       "hash": "2df9da20d5aa38cc2ddc6b3c3de092cd2e4f1448064e4d397b09f54b46116718",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--candidates--indonesia-kyb-verification"
     },
     {
       "path": "research/candidates/jkn-claims-integrity.md",
@@ -11149,7 +11209,8 @@
       "hash": "2791802277b834e1ae9ff7550735d2a1f54f2c8507ba07996f23b128b3c4a4b3",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "jkn-claims-integrity"
     },
     {
       "path": "research/candidates/koperasi-member-fund-integrity.md",
@@ -11158,7 +11219,8 @@
       "hash": "e2f2070af7bf1547480bc5ee77917d8f07cc17021dee2016aba788458b72bc4d",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "koperasi-member-fund-integrity"
     },
     {
       "path": "research/candidates/land-double-certificate-detection.md",
@@ -11167,7 +11229,8 @@
       "hash": "c42f0f90c36ddbaf93da65c677910bc1a4f0e362a44924dd0e4684dcf7fd7e7a",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "land-double-certificate-detection"
     },
     {
       "path": "research/candidates/mill-mass-balance-reconciliation.md",
@@ -11176,7 +11239,8 @@
       "hash": "530c39e463d36af59cb9060e8044773412985e392be61c8790dc34d73da2e291",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--candidates--mill-mass-balance-reconciliation"
     },
     {
       "path": "research/candidates/ore-provenance-verification.md",
@@ -11185,7 +11249,8 @@
       "hash": "dc4ac97981d08ea6423a364e458bb8b2e2e0ce06c63858b27b4a75cc9ffeca85",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "ore-provenance-verification"
     },
     {
       "path": "research/candidates/permit-overlap-diligence.md",
@@ -11194,7 +11259,8 @@
       "hash": "c60bd48191501024a7b6b92cbaa413d66376fb32b3ad9068c89551b911db4535",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "permit-overlap-diligence"
     },
     {
       "path": "research/candidates/ppjb-uniqueness-registry.md",
@@ -11203,7 +11269,8 @@
       "hash": "7b044de70416c5d0c47932195ecd7e2d1bdf014f8b292f9cfdd19ec36dc9b2fc",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "ppjb-uniqueness-registry"
     },
     {
       "path": "research/candidates/private-health-claims-validation.md",
@@ -11212,7 +11279,8 @@
       "hash": "85ca7ecc6dd938e5dbd9560054063695fb20210371e55dcf0b2d83235c741599",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "private-health-claims-validation"
     },
     {
       "path": "research/candidates/program-beneficiary-identity-resolution.md",
@@ -11221,7 +11289,8 @@
       "hash": "ea60d30688f055f4b2dd0207bfec3b0ecd084a48e2c8a967f6150363777665e8",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "program-beneficiary-identity-resolution"
     },
     {
       "path": "research/candidates/receivables-uniqueness.md",
@@ -11230,7 +11299,8 @@
       "hash": "1bb76b760fa905a4551105e4172c24fc51f2d36751fa077f7418496e1222005f",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "receivables-uniqueness"
     },
     {
       "path": "research/candidates/reserve-backing-attestation.md",
@@ -11239,7 +11309,8 @@
       "hash": "67246bf50d08b202f08926d2cdb15f741133a881f0f457178d3234ef439ff172",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "reserve-backing-attestation"
     },
     {
       "path": "research/candidates/seafarer-registry-integrity.md",
@@ -11248,7 +11319,8 @@
       "hash": "d0659bc1b1c765c4ee5345c2b14aa4461a77c61a2f73eea9d6b512af1112286c",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "seafarer-registry-integrity"
     },
     {
       "path": "research/candidates/synthetic-borrower-detection.md",
@@ -11257,7 +11329,8 @@
       "hash": "2801be4545092b96241690e2fe5529f078d4fd0a40ea7de9c984773bb823782b",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--candidates--synthetic-borrower-detection"
     },
     {
       "path": "research/candidates/trade-document-fraud-detection.md",
@@ -11266,7 +11339,8 @@
       "hash": "b9d440727f56ceb71775c955105dd0da756f9249cf1e1919e6bc5b5f6b74b4e0",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "trade-document-fraud-detection"
     },
     {
       "path": "research/candidates/vehicle-registry-canonical-record.md",
@@ -11275,7 +11349,8 @@
       "hash": "fafc0c65ffe87dc32c4292e7fcbe855a978beb2958b31de117b3cbe1c716002a",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "vehicle-registry-canonical-record"
     },
     {
       "path": "research/geography/beneficial-ownership-verification.md",
@@ -11284,7 +11359,8 @@
       "hash": "868fd96b8eb4e526731c72bf6f8bbc71cb4d7fbb73b010718a6a7d227054a92c",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--geography--beneficial-ownership-verification"
     },
     {
       "path": "research/geography/collateral-existence-monitoring.md",
@@ -11293,7 +11369,8 @@
       "hash": "c05254b967eae92b2152a49a0864bfa35ff2fc0be9ce48f2081ef4e29f088870",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--geography--collateral-existence-monitoring"
     },
     {
       "path": "research/geography/credential-holder-identity-binding.md",
@@ -11302,7 +11379,8 @@
       "hash": "ead53b815ab8e88e7f365c91fe3d8e5c6840c0dcf9007027854395281b0e805e",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--geography--credential-holder-identity-binding"
     },
     {
       "path": "research/geography/cross-registry-credential-platform.md",
@@ -11311,7 +11389,8 @@
       "hash": "9cb0e1b3a3f2a8ee8e501731b0b6e97d8d6c5ab7c5593199295ff129be582f55",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--geography--cross-registry-credential-platform"
     },
     {
       "path": "research/geography/ekyc-deepfake-injection-detection.md",
@@ -11320,7 +11399,8 @@
       "hash": "d24439253052d089ec5f38f5445b248175ecbf6351778366538c6e5b28dc5bb8",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--geography--ekyc-deepfake-injection-detection"
     },
     {
       "path": "research/geography/fictitious-tax-invoice-screening.md",
@@ -11329,7 +11409,8 @@
       "hash": "2db4feb20b0ecf2891e0d836a43c543d2cfaee6a80d33c0d1c6fff34d13b5f75",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--geography--fictitious-tax-invoice-screening"
     },
     {
       "path": "research/geography/indonesia-kyb-verification.md",
@@ -11338,7 +11419,8 @@
       "hash": "684fe9fdb5d3a8a38dd5457350e21a107b6c561b9b4197f53c451e656254653d",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--geography--indonesia-kyb-verification"
     },
     {
       "path": "research/geography/mill-mass-balance-reconciliation.md",
@@ -11347,7 +11429,8 @@
       "hash": "3ab78f1682e9050209493976ae0f488b198068226d749c9414e283ebca5c13b8",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--geography--mill-mass-balance-reconciliation"
     },
     {
       "path": "research/geography/synthetic-borrower-detection.md",
@@ -11356,7 +11439,8 @@
       "hash": "cca9b73e4a9f2ed7d97e2855fedc20829ea75efb1cb91565ee55a11d20fa960c",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--geography--synthetic-borrower-detection"
     },
     {
       "path": "research/industries/ai-content-authenticity.md",
@@ -11365,7 +11449,8 @@
       "hash": "2f3134f5ba171c238bdd585038b54cdbdc753a2e5e75fb3fa9e798345f8e1093",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "ai-content-authenticity"
     },
     {
       "path": "research/industries/carbon-markets.md",
@@ -11374,7 +11459,8 @@
       "hash": "fb568d6c3c7371cd775591f40560ead37e1b02f9507b33702edfce83214238fa",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "carbon-markets"
     },
     {
       "path": "research/industries/coffee-cocoa.md",
@@ -11383,7 +11469,8 @@
       "hash": "62a859b9e74fc30feda9c3ddab2d046b2e71c678a83d7d4d35508577ebbf9d5e",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "coffee-cocoa"
     },
     {
       "path": "research/industries/cold-chain.md",
@@ -11392,7 +11479,8 @@
       "hash": "033cc3794b377ff636243aed3f1a7fd3b4e387aa380f3fe1cc7cc5c92a7af9ff",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "cold-chain"
     },
     {
       "path": "research/industries/construction.md",
@@ -11401,7 +11489,8 @@
       "hash": "2c910a2de5d9b3b61808b55b87ab05656ed787b9b43f40bb61f8e290b53aea6d",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "construction"
     },
     {
       "path": "research/industries/cross-border-remittance.md",
@@ -11410,7 +11499,8 @@
       "hash": "1634e8f69560d83d1adeb6fa09937904546a829923684f9ec5792fe9580bc252",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "cross-border-remittance"
     },
     {
       "path": "research/industries/digital-identity.md",
@@ -11419,7 +11509,8 @@
       "hash": "f9412bc3d3e9d53e2204568c0ab037e9726af278d1121584ad8b9341cd9aa39e",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "digital-identity"
     },
     {
       "path": "research/industries/domestic-logistics.md",
@@ -11428,7 +11519,8 @@
       "hash": "9bb55495722a330db77a4acfddd65934479e96cd00640c2f0f014ab46ab44a8f",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "domestic-logistics"
     },
     {
       "path": "research/industries/ecommerce-authenticity.md",
@@ -11437,7 +11529,8 @@
       "hash": "5976254ab5d2393363735c12070ac27a3a2a339b90ad38d9fe12d4419ee89982",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "ecommerce-authenticity"
     },
     {
       "path": "research/industries/education-credentials.md",
@@ -11446,7 +11539,8 @@
       "hash": "f78ae686b0ebf06ed50854ee2fdb6fed37bc19fdb23fda6ea806cd596cfb86ce",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "education-credentials"
     },
     {
       "path": "research/industries/energy-rec.md",
@@ -11455,7 +11549,8 @@
       "hash": "89bed1428e97806516ec7bba6e79aca44209ece4e3959112f0058c9fa8527408",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "energy-rec"
     },
     {
       "path": "research/industries/fisheries.md",
@@ -11464,7 +11559,8 @@
       "hash": "bb43e3d5c14c103250bd677c39497a9d112ad667b5b5babeea7200a70404fdef",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "fisheries"
     },
     {
       "path": "research/industries/gold-bullion.md",
@@ -11473,7 +11569,8 @@
       "hash": "d1e2ed7dace6924ec6d67dfca1cdb7fa2dc966e9906e9d359bdb41ff160843a4",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--industries--gold-bullion"
     },
     {
       "path": "research/industries/halal-certification.md",
@@ -11482,7 +11579,8 @@
       "hash": "8667981eff9a0c28285f34d31b27bda01cd0192f2e0a4dd0026b77b68a2d105e",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "halal-certification"
     },
     {
       "path": "research/industries/healthcare-claims.md",
@@ -11491,7 +11589,8 @@
       "hash": "75681f8c49bbbefdcdc77825059c082439a44985e901690e958171918ac4ab11",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "healthcare-claims"
     },
     {
       "path": "research/industries/insurance-claims.md",
@@ -11500,7 +11599,8 @@
       "hash": "c62a6eb04a0775fc43fbe20e58739c0d99c4437ff8787342162211c0f7e0f586",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "insurance-claims"
     },
     {
       "path": "research/industries/invoice-financing.md",
@@ -11509,7 +11609,8 @@
       "hash": "d870a5fe21231430eef8a56ff9627530057e1afa4f8fc90479110bd617ae3b31",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "invoice-financing"
     },
     {
       "path": "research/industries/islamic-social-finance.md",
@@ -11518,7 +11619,8 @@
       "hash": "50a0c91da4d92a4306acd1579e9b2c122af4a789f08f60dde1099854bfaa78c1",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "islamic-social-finance"
     },
     {
       "path": "research/industries/koperasi.md",
@@ -11527,7 +11629,8 @@
       "hash": "b66e69836c3be3ef1b8282d2d36305b7ba5b4c6e1d4e762b26727cce81044c6a",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "koperasi"
     },
     {
       "path": "research/industries/land-registry.md",
@@ -11536,7 +11639,8 @@
       "hash": "5bce96cdf1c9a37bc6d32096948dc29ca138ed66c29fbadb1fd3cc3b87564fb3",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "land-registry"
     },
     {
       "path": "research/industries/mining-nickel.md",
@@ -11545,7 +11649,8 @@
       "hash": "87401e6411060239844ee3665bd98dfe1979a99cb061c79718bd1f2af28aa1fc",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--industries--mining-nickel"
     },
     {
       "path": "research/industries/notary-civil-docs.md",
@@ -11554,7 +11659,8 @@
       "hash": "379e8590787378e901a4e4cef8d13cde29cab85c8726af7f06d2241e0531aaa1",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "notary-civil-docs"
     },
     {
       "path": "research/industries/palm-oil.md",
@@ -11563,7 +11669,8 @@
       "hash": "d0b295611d0947732783ad143a7dadad18f46f1b327283e485cbf76ce43a83bd",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "palm-oil"
     },
     {
       "path": "research/industries/pharma-supply.md",
@@ -11572,7 +11679,8 @@
       "hash": "0636ce8349ea6baac6ea45392e23785c77c324118f94f1077ed8d6c21f51a239",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "pharma-supply"
     },
     {
       "path": "research/industries/ports-customs.md",
@@ -11581,7 +11689,8 @@
       "hash": "44e32504e7dffc6591f8d4510644fcdf6056e88fc8e3c83ab947f7a34ef91dbc",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "ports-customs"
     },
     {
       "path": "research/industries/procurement.md",
@@ -11590,7 +11699,8 @@
       "hash": "94fa33f77799beb5978edfceb889e66553e7e47b2020e9baf5052e22fd351797",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "procurement"
     },
     {
       "path": "research/industries/professional-licensing.md",
@@ -11599,7 +11709,8 @@
       "hash": "fe76fe0cf8d78915c2f08dfdd68ac1138008d4b3ae3eb9f0537fe544cebf0a1f",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "professional-licensing"
     },
     {
       "path": "research/industries/real-estate-presale.md",
@@ -11608,7 +11719,8 @@
       "hash": "1cff5ae95f002caa4ace91dbcb3a16d961ed8e564101a26f393ad1aa08d5d318",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "real-estate-presale"
     },
     {
       "path": "research/industries/trade-finance.md",
@@ -11617,7 +11729,8 @@
       "hash": "f920e0b2c5d796a04fba2878f88c0a6e8fce94cf291c4181e4d581bf8919106e",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "trade-finance"
     },
     {
       "path": "research/industries/workforce-credentials.md",
@@ -11626,7 +11739,8 @@
       "hash": "f11b53b0c9c3fbf44f2f6c52d22a15a93836aeea0383d67876a8d952b8ce350c",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "workforce-credentials"
     },
     {
       "path": "research/verify/audit-anchor-application.md",
@@ -11635,7 +11749,8 @@
       "hash": "1d0ce2335297296c6f96d921936eb2c3cb53e6581ba78adc9abf8fb2fee782a6",
       "frozen": true,
       "expectedHash": "1d0ce2335297296c6f96d921936eb2c3cb53e6581ba78adc9abf8fb2fee782a6",
-      "hashMatch": true
+      "hashMatch": true,
+      "documentId": "audit-anchor-application"
     },
     {
       "path": "research/verify/b-bpr-insider-fraud-continuous-audit.md",
@@ -11644,7 +11759,8 @@
       "hash": "c4e904277fa724acdb429bf4d6cdc09b561fddd3bc3ac4827f7b33fc7ee22177",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "b-bpr-insider-fraud-continuous-audit"
     },
     {
       "path": "research/verify/b-financial-statement-fraud-detection.md",
@@ -11653,7 +11769,8 @@
       "hash": "0dd9be35c1bb43d292bc085b884a9add1066b9f3f83774ee7212c8d983f5e79e",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "b-financial-statement-fraud-detection"
     },
     {
       "path": "research/verify/b-halal-certificate-integrity.md",
@@ -11662,7 +11779,8 @@
       "hash": "72a57d5f54421c3c71172620e57c385b5cf06debd9963df42a89eb7b2610f85a",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "b-halal-certificate-integrity"
     },
     {
       "path": "research/verify/b-jkn-claims-integrity.md",
@@ -11671,7 +11789,8 @@
       "hash": "160df36e9649522795d92f03fd1602a9cc03920d6bb72ecac19e7f349bef08c6",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "b-jkn-claims-integrity"
     },
     {
       "path": "research/verify/b-land-double-certificate-detection.md",
@@ -11680,7 +11799,8 @@
       "hash": "ab3c11e01d411a82b6e93a48985f353a3b5e8e47b1a50f6f5bfdb7531b639d35",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "b-land-double-certificate-detection"
     },
     {
       "path": "research/verify/b-permit-overlap-diligence.md",
@@ -11689,7 +11809,8 @@
       "hash": "b0ee967d4baa2636603635ea35d241d1a90b81f1acaf58cd06148d58f5474d12",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "b-permit-overlap-diligence"
     },
     {
       "path": "research/verify/gold-bullion.md",
@@ -11698,7 +11819,8 @@
       "hash": "d557782521713878e03bbd07ffa06ff6aec8463dee5277b93527e9ea9d02990c",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--verify--gold-bullion"
     },
     {
       "path": "research/verify/mining-nickel.md",
@@ -11707,7 +11829,8 @@
       "hash": "6666733eaeacdde5993dd390b14a6f5b126819a2d6e20d75eb78ef71e33da344",
       "frozen": false,
       "expectedHash": null,
-      "hashMatch": null
+      "hashMatch": null,
+      "documentId": "research--verify--mining-nickel"
     }
   ],
   "searchIndex": [

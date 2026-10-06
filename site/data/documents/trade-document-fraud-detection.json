@@ -6,5 +6,6 @@
   "hash": "b9d440727f56ceb71775c955105dd0da756f9249cf1e1919e6bc5b5f6b74b4e0",
   "frozen": false,
   "expectedHash": null,
-  "hashMatch": null
+  "hashMatch": null,
+  "documentId": "trade-document-fraud-detection"
 }

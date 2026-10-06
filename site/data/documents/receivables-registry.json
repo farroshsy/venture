@@ -6,5 +6,6 @@
   "hash": "93dc8425ff52b3e1acfd9250ae720e78285c532ed46eaaa9049730fa79307333",
   "frozen": false,
   "expectedHash": null,
-  "hashMatch": null
+  "hashMatch": null,
+  "documentId": "receivables-registry"
 }
